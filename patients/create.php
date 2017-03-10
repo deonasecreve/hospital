@@ -13,6 +13,11 @@
 			<input type="text" id="species" name="species">
 		</div>
 		<div>
+			<label for="gender">Gender:</label>
+			<input type="radio" id="male" name="gender" value="0"> Male
+  			<input type="radio" id="female" name="gender" value="1"> Female
+		</div>
+		<div>
 			<label for="status">Status:</label>
 			<textarea id="status" name="status"></textarea>
 		</div>
