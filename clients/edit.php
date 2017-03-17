@@ -10,12 +10,8 @@
 			<input type="text" id="name" name="name" value="<?=$client['name']?>">
 		</div>
 		<div>
-			<label for="species">Room:</label>
-			<input type="text" id="room" name="room" value="<?=$client['room']?>">
-		</div>
-		<div>
-			<label for="status">Status:</label>
-			<textarea id="status" name="status"><?=$client['status']?></textarea>
+			<label for="address">Address:</label>
+			<input type="text" id="address" name="address" value="<?=$client['address']?>">
 		</div>
 		<div>
 			<label></label>

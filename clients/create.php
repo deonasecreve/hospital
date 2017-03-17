@@ -9,14 +9,14 @@
 			<input type="text" id="name" name="name">
 		</div>
 		<div>
-			<label for="room">Room:</label>
-			<input type="text" id="room" name="room">
+			<label for="address">Address:</label>
+			<input type="text" id="address" name="address">
 		</div>
 		<div>
-			<label for="status">Status:</label>
-			<textarea id="status" name="status"></textarea>
+			<label></label>
+			<input type="submit" value="Save">
 		</div>
-		<div>
+		div>
 			<label></label>
 			<input type="submit" value="Save">
 		</div>

@@ -8,10 +8,7 @@
 		<thead>
 			<tr>
 				<th>Name</th>
-				<th>Room</th>
-				<th>Status</th>
-				<th></th>
-				<th></th>
+				<th>Address</th>
 			</tr>
 		</thead>
 		</tbody>
@@ -20,8 +17,7 @@
 ?>
 			<tr>
 				<td><?=$client['name']?></td>
-				<td><?=$client['room']?></td>
-				<td><?=$client['status']?></td>
+				<td><?=$client['address']?></td>
 				<td class="center"><a href="edit.php?id=<?=$client['id']?>">edit</a></td>
 				<td class="center"><a href="delete.php?id=<?=$client['id']?>">delete</a></td>
 			</tr>

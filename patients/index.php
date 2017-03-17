@@ -7,7 +7,8 @@
 	<table>
 		<thead>
 			<tr>
-				<th><a href="index.php?sort=name">Name</a></th>
+				<th><a href="index.php?sort=asc">Name</a></th>
+				
 				<th><a href="index.php?sort=species">Species</a></th>
 				<th><a href="index.php?sort=gender">Gender</a></th>
 				<th>Status</th>

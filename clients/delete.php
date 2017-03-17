@@ -11,8 +11,8 @@
 			<span><?=$client['name']?></span>
 		</div>
 		<div>
-			<label for="room">Room:</label>
-			<span><?=$client['room']?></span>
+			<label for="address">Address:</label>
+			<span><?=$client['address']?></span>
 		</div>
 		<div>
 			<label></label>

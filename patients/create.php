@@ -10,7 +10,12 @@
 		</div>
 		<div>
 			<label for="species">Species:</label>
-			<input type="text" id="species" name="species">
+			<select name="species">
+  				<option value="cat">Cat</option>
+  				<option value="dog">Dog</option>
+  				<option value="fish">Fish</option>
+  				<option value="hamster">Hamster</option>
+			</select>
 		</div>
 		<div>
 			<label for="gender">Gender:</label>
@@ -20,6 +25,16 @@
 		<div>
 			<label for="status">Status:</label>
 			<textarea id="status" name="status"></textarea>
+		</div>
+		<div>
+			<label for="client">Client name:</label>
+			<select>
+				<?php
+					foreach ($clients as $client){
+						echo '<option value="'.$client["id"].'">'.$client["name"].'</option>';
+					}
+				?>
+			</select>
 		</div>
 		<div>
 			<label></label>

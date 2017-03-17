@@ -4,11 +4,10 @@
 		
 		// Prepare data for insertion
 		$name = $db->escape_string($_POST["name"]);
-		$room = $db->escape_string($_POST["room"]);
-		$status = $db->escape_string($_POST["status"]);
+		$address = $db->escape_string($_POST["address"]);
 		
 		// Prepare query and execute
-		$query = "insert into client (name, room, status) values ('$name','$room','$status')";
+		$query = "insert into client (name, address ) values ('$name','$address')";
 		$result = $db->query($query);
 	
     // Tell the browser to go back to the index page.

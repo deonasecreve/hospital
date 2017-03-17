@@ -22,11 +22,10 @@
 		// Prepare data for update
 		$id = $db->escape_string($_POST["id"]);
 		$name = $db->escape_string($_POST["name"]);
-		$room = $db->escape_string($_POST["room"]);
-		$status = $db->escape_string($_POST["status"]);
+		$address = $db->escape_string($_POST["address"]);
 		
 		// Prepare query and execute
-		$query = "update client set name='$name', room='$room', status='$status' where id=$id";
+		$query = "update client set name='$name', address='$address' where id=$id";
 		$result = $db->query($query);
 	
     // Tell the browser to go back to the index page.
